@@ -17,7 +17,7 @@ const AboutUs = () => {
         ensure that artificial general intelligence benefits all of humanity.
       </p>
       <img
-        className="mt-10 w-full h-auto object-cover"
+        className="mt-10 w-full h-auto rounded-lg object-cover"
         src={team}
         alt="Team"
       />

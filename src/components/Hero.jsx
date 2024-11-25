@@ -1,3 +1,6 @@
+import Lottie from "lottie-react";
+import Coding from "../assets/coding.json";
+
 const Hero = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
@@ -19,15 +22,18 @@ const Hero = () => {
         of ChatAI is free.
       </p>
       <div className="flex justify-center my-10">
-        <a href="#" className="bg-gradient-to-r from-blue-500 to-blue-800 py-3 px-4 mx-3 rounded-md">
-          Start for free
-        </a>
         <a
           href="#"
-          className="py-3 px-4 mx-3 rounded-md border"
+          className="bg-gradient-to-r from-blue-500 to-blue-800 py-3 px-4 mx-3 rounded-md"
         >
+          Start for free
+        </a>
+        <a href="#" className="py-3 px-4 mx-3 rounded-md border">
           Documentation
         </a>
+      </div>
+      <div className="w-[55%] flex justify-center">
+        <Lottie loop={true} animationData={Coding} />
       </div>
     </div>
   );
