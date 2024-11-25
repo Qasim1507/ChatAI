@@ -7,7 +7,7 @@ Built with **Tailwind CSS**, **React**, and **Vite**.
 ---
 
 ## Live Demo
-Check the live demo here 👉 [ChatAI]((https://chat-ai-qasim.vercel.app/))
+Check the live demo here 👉 [ChatAI]([https://chat-ai-qasim.vercel.app/])
 
 ---
 
