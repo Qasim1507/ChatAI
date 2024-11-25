@@ -1,10 +1,29 @@
-# ChatAI Landing Page
+# CHATAI Landing Page
 
-Installation:
+ChatAI is a chatbot landing page template built on top of TailwindCSS and fully coded in React.
+
+Built with **Tailwind CSS**, **React**, and **Vite**.
+
+---
+
+## Live Demo
+Check the live demo here 👉 [ChatAI]((https://chat-ai-qasim.vercel.app/))
+
+---
+
+## Getting Started
+First, installation:
+
+```bash
 npm i
+```
 
-Run:
+Next, run the development server:
+
+```bash
 npm run dev
-
-Deployment website:
-https://chat-ai-qasim.vercel.app/
+# or
+yarn dev
+# or
+pnpm dev
+```
