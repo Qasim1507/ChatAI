@@ -4,39 +4,39 @@ const Features = () => {
   const features = [
     {
       icon: <BotMessageSquare />,
-      text: "Drag-and-Drop Interface",
+      text: "Conversational Coding",
       description:
-        "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+        "Describe what you need in plain English and get working code back, then refine it through follow-up questions.",
     },
     {
       icon: <Fingerprint />,
-      text: "Multi-Platform Compatibility",
+      text: "Context-Aware Answers",
       description:
-        "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+        "ChatAI remembers the earlier parts of your conversation, so explanations and fixes build on what you've already shared.",
     },
     {
       icon: <ShieldHalf />,
-      text: "Built-in Templates",
+      text: "Private by Default",
       description:
-        "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+        "Your code and conversations stay yours. Nothing you share is used to train the model.",
     },
     {
       icon: <BatteryCharging />,
-      text: "Real-Time Preview",
+      text: "Instant Debugging",
       description:
-        "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+        "Paste an error message or stack trace and get a clear explanation of what went wrong and how to fix it.",
     },
     {
       icon: <PlugZap />,
-      text: "Collaboration Tools",
+      text: "Editor Integrations",
       description:
-        "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+        "Use ChatAI where you already work, with plugins for popular editors and a simple REST API.",
     },
     {
       icon: <GlobeLock />,
-      text: "Analytics Dashboard",
+      text: "Multi-Language Support",
       description:
-        "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+        "From Python and JavaScript to C++ and SQL, ChatAI understands the languages and frameworks you use every day.",
     },
   ];
 
@@ -47,7 +47,7 @@ const Features = () => {
           Features
         </span>
         <h2 className="text-3xl sm:text-5xl font-medium lg:text-6xl mt-10 lg:mt-20 tracking-wide">
-          Build you code{" "}
+          Build your code{" "}
           <span className="bg-gradient-to-r from-blue-500 to-blue-800 text-transparent bg-clip-text">
             with ease
           </span>

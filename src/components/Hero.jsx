@@ -11,15 +11,13 @@ const Hero = () => {
         </span>
       </h1>
       <p className="mt-10 text-lg text-center text-neutral-400 max-w-4xl">
-        We've trained a model called ChatAI which interacts in a conversational
-        way. The dialogue format makes it possible for ChatAI to answer followup
-        questions, admit its mistakes, challenge incorrect premises, and reject
-        inappropriate requests.
+        ChatAI is an AI coding assistant you can talk to like a teammate. Ask it
+        to explain unfamiliar code, track down a bug, or sketch out a new
+        feature, and keep refining the answer with follow-up questions.
       </p>
       <p className="mt-10 text-lg text-center text-neutral-400 max-w-4xl">
-        We are excited to introduce ChatAI to get users' feedback and learn
-        about its strengths and weaknesses. During the research preview, usage
-        of ChatAI is free.
+        Spend less time searching docs and more time shipping. Get started for
+        free — no credit card required.
       </p>
       <div className="flex justify-center my-10">
         <a

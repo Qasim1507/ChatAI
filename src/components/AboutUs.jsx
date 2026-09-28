@@ -13,8 +13,9 @@ const AboutUs = () => {
         </span>
       </div>
       <p className="mt-10 text-xl text-center text-neutral-400 max-w-4xl px-4">
-        ChatAI is an AI research and deployment company. Our mission is to
-        ensure that artificial general intelligence benefits all of humanity.
+        ChatAI is built by a small team of developers who got tired of
+        switching between docs, forums and their editor. Our mission is to put
+        a knowledgeable coding partner one question away.
       </p>
       <img
         className="mt-10 w-full h-auto rounded-lg object-cover"
@@ -22,21 +23,21 @@ const AboutUs = () => {
         alt="Team"
       />
       <span className="mt-10 text-xl md:text-2xl lg:text-3xl text-center tracking-wide px-4">
-        We are building safe and beneficial AGI, but will also consider our
-        mission fulfilled if our work aids others to achieve this outcome.
+        We believe great tools should make developers faster without getting
+        in the way.
       </span>
 
       {/* Updated Section with Increased Height */}
       <div className="mt-20 flex flex-col md:flex-row items-center justify-between w-full max-w-6xl px-4 min-h-[500px]">
         <div className="md:w-1/2 text-neutral-400 space-y-6">
           <h2 className="text-2xl md:text-3xl font-semibold text-white">
-            Our Structure
+            How We Work
           </h2>
           <p className="text-lg leading-relaxed">
-            We are governed by a nonprofit and our unique capped-profit model
-            drives our commitment to safety. This means that as AI becomes more
-            powerful, we can redistribute profits from our work to maximize the
-            social and economic benefits of AI technology.
+            We ship small improvements every week and shape the roadmap around
+            feedback from the people who use ChatAI daily. Privacy comes first:
+            your code is processed only to answer your question and is never
+            sold or shared.
           </p>
         </div>
 
